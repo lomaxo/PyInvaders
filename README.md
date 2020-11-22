@@ -46,7 +46,7 @@ Before actually running the main loop we define some classes. These are template
 
 | Class | Description |
 | -------|-------------|
-| Game | There is only going to be one of these objects created. It will be coordinate all the other objects and contain the _game loop_|
+| Game | There is only going to be one of these objects created. It will coordinate all the other objects and contain the _game loop_|
 |Player | This holds and information about the player such as their possition on the screen. It also has a method (function) that will be called when the player image needs to be drawn to the screen, and one that deals with moving the player when the user presses the arrow keys.|
 |Alien | Very similar to Player, this deals with drawing and moving the aliens |
 |Bullet | When the player shoots, a Bullet object is created that moves up the screen and hopefully collides with the aliens. |
