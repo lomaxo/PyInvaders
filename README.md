@@ -9,7 +9,7 @@
 * [The Alien class](#the-alien-class)
 * [The Bullet class](#the-bullet-class)
 * [Creating the Game object](#creating-the-game-object)
-* [What next?](#what-next-)
+* [What next?](#what-next)
 
 ## Pygame
 
