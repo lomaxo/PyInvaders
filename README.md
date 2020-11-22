@@ -304,3 +304,12 @@ If you run the game, you'll see it's not quite a finished product. Here are some
 
 There are lots of tutorials online if you want to find out more about using Pygame. Just Google. Once you know what's going on, the [pygame documentaion](https://www.pygame.org/docs/) is also quite useful.
 
+## Assets
+The images used here came from [OpenGameArt.org](https://opengameart.org/)
+
+- https://opengameart.org/content/8-bit-alien-assets by Alfalfamire@gmail.com
+
+- https://opengameart.org/content/spaceship-bullet
+
+- https://opengameart.org/content/space-background-1
+
