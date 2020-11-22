@@ -1,7 +1,7 @@
 # PyInvaders
 # Space Invaders
 
-##Contents
+## Contents
   
 * [Pygame](#pygame)
 * [Getting started](#getting-started)
