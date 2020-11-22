@@ -51,7 +51,7 @@ Before actually running the main loop we define some classes. These are template
 |Alien | Very similar to Player, this deals with drawing and moving the aliens |
 |Bullet | When the player shoots, a Bullet object is created that moves up the screen and hopefully collides with the aliens. |
 
-## The Game Class 
+## The Game Class 
 Let's look at the `Game` class definition. 
 
 The first function is `__init__(self):` that gets called automatically when the `game` object is created. The `__init__` function:
