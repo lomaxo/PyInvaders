@@ -1,4 +1,3 @@
-# PyInvaders
 # Space Invaders
 
 ## Contents
