@@ -15,7 +15,7 @@
 
 We're going to use the [**pygame**](https://www.pygame.org/wiki/about) library to deal with drawing images and getting input from the keyboard. So the first thing to do is import pygame. Pygame works in Trinket but the display is a bit slow. If you are using Python on your laptop, rather than in a browser, you might need to download the pygame library, but try it first as it is often already installed.
 
-Once it is installed, any python prgram that wants to use it needs to start by _importing_ the library.
+Once Pygame is installed, any python program that wants to use it needs to start by _importing_ the library.
 ```
 import pygame
 ```
@@ -143,7 +143,7 @@ The `update_logic()` function also gets called every frame. It deals with anythi
                     self.alien_list.remove(alien)
 ```
 
-And this is the main loop itself, where every essentially happens.
+And this is the main loop itself, where everything happens.
 ```python
     def main_loop(self):
         """
