@@ -47,7 +47,7 @@ Before actually running the main loop we define some classes. These are template
 | Class | Description |
 | -------|-------------|
 | Game | There is only going to be one of these objects created. It will coordinate all the other objects and contain the _game loop_|
-|Player | This holds and information about the player such as their possition on the screen. It also has a method (function) that will be called when the player image needs to be drawn to the screen, and one that deals with moving the player when the user presses the arrow keys.|
+|Player | This holds and information about the player such as their position on the screen. It also has a method (function) that will be called when the player image needs to be drawn to the screen, and one that deals with moving the player when the user presses the arrow keys.|
 |Alien | Very similar to Player, this deals with drawing and moving the aliens |
 |Bullet | When the player shoots, a Bullet object is created that moves up the screen and hopefully collides with the aliens. |
 
@@ -221,7 +221,7 @@ class Player:
 ## The Alien class
 Next comes the Alien class. This is very similar to the Player class; so similar in fact that there is some code repetition; look at the `draw()` function. Ideally we could avoid repetition by making both Player and Alien _inherit_ from the same parent class called something like _GameObject_.
 
-There is an additional function here called `get_rectangle()`. This returns a special pygame rectange (`rect`) object that contains the width and height of the image, and the x and y coordinates. We use this rectangle when doing collision detection in the `Game.update_logic()`
+There is an additional function here called `get_rectangle()`. This returns a special pygame rectangle (`rect`) object that contains the width and height of the image, and the x and y coordinates. We use this rectangle when doing collision detection in the `Game.update_logic()`
 
 In this version of the game, we actually only create one instance of the Alien class, but in the finished game, there would be many of them.
 
@@ -255,7 +255,7 @@ class Alien:
 ```
 
 ## The Bullet class
-Lastly is the Bullet class. Again, if we where using inheritance, this could inherit from a parent class shareed by Player and Alien.
+Lastly is the Bullet class. Again, if we where using inheritance, this could inherit from a parent class shared by Player and Alien.
 ```python
 class Bullet:
     """
